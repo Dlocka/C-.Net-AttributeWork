@@ -1,0 +1,16 @@
+D:\.Net Advance\AttributeWork\IDAL\bin\Debug\net8.0\appSettings.json
+D:\.Net Advance\AttributeWork\IDAL\bin\Debug\net8.0\IDAL.deps.json
+D:\.Net Advance\AttributeWork\IDAL\bin\Debug\net8.0\IDAL.dll
+D:\.Net Advance\AttributeWork\IDAL\bin\Debug\net8.0\IDAL.pdb
+D:\.Net Advance\AttributeWork\IDAL\bin\Debug\net8.0\Models.dll
+D:\.Net Advance\AttributeWork\IDAL\bin\Debug\net8.0\Models.pdb
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\IDAL.csproj.AssemblyReference.cache
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\IDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\IDAL.AssemblyInfoInputs.cache
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\IDAL.AssemblyInfo.cs
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\IDAL.csproj.CoreCompileInputs.cache
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\IDAL.csproj.Up2Date
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\IDAL.dll
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\refint\IDAL.dll
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\IDAL.pdb
+D:\.Net Advance\AttributeWork\IDAL\obj\Debug\net8.0\ref\IDAL.dll

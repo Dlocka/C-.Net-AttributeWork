@@ -1,0 +1,8 @@
+{
+  "ConnectionString": {
+    "Server": ".;",
+    "UserId": "sa",
+    "Password": "123456",
+    "Database": "RMSchoolDB"
+  }
+}

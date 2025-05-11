@@ -52,13 +52,13 @@ namespace AttributeWork
             #region
 
             
-            Expression<Func<CompanyModel, bool>> Condition = x => x.Remark == "科技公司";
+            Expression<Func<CompanyModel, bool>> Condition = x => x.Remark == "tech company";
             CompanyModel company = new CompanyModel();
             PropertyInfo changeProperty = typeof(CompanyModel).GetProperty("Name");
             company.Name = company.Name + 500;
 
             var parameter = Expression.Parameter(typeof(CompanyModel), "company");
-            // 2. 创建属性的 MemberExpression
+            // 2. Create property' MemberExpression
             var property = Expression.Property(parameter, "Amount");
             var ConstantExpression = Expression.Constant(123);
             var addExpression= Expression.Add(property, ConstantExpression);

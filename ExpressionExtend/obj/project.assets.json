@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v8.0": {
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "Models.AttributeHelper/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v8.0",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Models.AttributeHelper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.AttributeHelper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    },
+    "Models.AttributeHelper/1.0.0": {
+      "type": "project",
+      "path": "../Models.AttributeHelper/Models.AttributeHelper.csproj",
+      "msbuildProject": "../Models.AttributeHelper/Models.AttributeHelper.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v8.0": [
+      "Models.AttributeHelper >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\10765\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\.Net Advance\\AttributeWork\\ExpressionExtend\\ExpressionExtend.csproj",
+      "projectName": "ExpressionExtend",
+      "projectPath": "D:\\.Net Advance\\AttributeWork\\ExpressionExtend\\ExpressionExtend.csproj",
+      "packagesPath": "C:\\Users\\10765\\.nuget\\packages\\",
+      "outputPath": "D:\\.Net Advance\\AttributeWork\\ExpressionExtend\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\10765\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net80"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net80": {
+          "projectReferences": {
+            "D:\\.Net Advance\\AttributeWork\\Models.AttributeHelper\\Models.AttributeHelper.csproj": {
+              "projectPath": "D:\\.Net Advance\\AttributeWork\\Models.AttributeHelper\\Models.AttributeHelper.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net80": {}
+    }
+  }
+}
